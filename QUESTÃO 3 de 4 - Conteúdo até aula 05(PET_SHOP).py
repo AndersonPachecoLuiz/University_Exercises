@@ -82,7 +82,7 @@ def main():
 
    total = base * multiplicador + extra
 
-   print("O valor total da conta é: R$", total)
+   print('O valor total da conta é: R$ {:.2f} (peso: {} * pelo: {} + adicional(is): {}'.format(total,base,multiplicador,extra))
 
 # Execução do programa
 
